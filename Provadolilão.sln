@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provadolilão.web", "Provadolilão.web\Provadolilão.web.csproj", "{C438CE46-EF32-48BD-8DBB-16E804336F77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provadolilão.web", "Provadolilão.web\Provadolilão.web.csproj", "{C438CE46-EF32-48BD-8DBB-16E804336F77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvadoLilão.Api", "ProvadoLilão.Api\ProvadoLilão.Api.csproj", "{7017B95E-E808-45B3-82C5-2D335D41FBA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvadoLilão.Api", "ProvadoLilão.Api\ProvadoLilão.Api.csproj", "{7017B95E-E808-45B3-82C5-2D335D41FBA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvadoLilão.core", "ProvadoLilão.core\ProvadoLilão.core.csproj", "{CF45A215-791A-4DCE-B244-F62E457CE57C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvadoLilão.core", "ProvadoLilão.core\ProvadoLilão.core.csproj", "{CF45A215-791A-4DCE-B244-F62E457CE57C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

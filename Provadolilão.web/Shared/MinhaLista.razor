@@ -1,0 +1,25 @@
+﻿<MudText Typo = "Typo.h4" Class = "mt-8 mb-4">@Titulo</MudText>
+
+<MudList Clickable = "true">
+    @foreach (var item in lista)
+    {
+        <MudListItem Text = "@item"></MudListItem>
+       
+    }
+    
+</MudList>
+
+@code {
+    [Parameter]
+    public string Titulo { get; set; } = "Título da lista";
+
+    [Parameter]
+    public string Itens { get; set; } = "Item 1;Item 2;Item 3";
+
+    private string[] lista;
+
+    protected override void OnInitialized()
+    {
+        lista = Itens.Split(";");
+    }
+}
